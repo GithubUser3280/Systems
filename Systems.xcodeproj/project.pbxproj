@@ -10,9 +10,35 @@
 		E5038E732CC4299700EB67CD /* Systems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Systems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E5C9C6C82CC4331100B67A3C /* Exceptions for "Systems" folder in "Systems" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Icons/_generated/blue/systems_icon_blue_macOS/icon.iconset,
+				Resources/Icons/_generated/cyan/systems_icon_cyan_macOS/icon.iconset,
+				Resources/Icons/_generated/gray/systems_icon_gray_macOS/icon.iconset,
+				Resources/Icons/_generated/green/systems_icon_green_macOS/icon.iconset,
+				Resources/Icons/_generated/pink/systems_icon_pink_macOS/icon.iconset,
+				Resources/Icons/_generated/red/systems_icon_red_macOS/icon.iconset,
+				Resources/Icons/_generated/yellow/systems_icon_yellow_macOS/icon.iconset,
+				Resources/Icons/systems_icon_blue.png,
+				Resources/Icons/systems_icon_cyan.png,
+				Resources/Icons/systems_icon_gray.png,
+				Resources/Icons/systems_icon_green.png,
+				Resources/Icons/systems_icon_pink.png,
+				Resources/Icons/systems_icon_red.png,
+				Resources/Icons/systems_icon_yellow.png,
+			);
+			target = E5038E722CC4299700EB67CD /* Systems */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E5038E752CC4299700EB67CD /* Systems */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E5C9C6C82CC4331100B67A3C /* Exceptions for "Systems" folder in "Systems" target */,
+			);
 			path = Systems;
 			sourceTree = "<group>";
 		};
@@ -242,9 +268,10 @@
 		E5038E852CC4299800EB67CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "GrayIcon RedIcon GreenIcon BlueIcon YellowIcon CyanIcon PinkIcon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = GrayIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Systems/Systems.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Systems/Resources/Systems.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DULNFDXAKD;
@@ -280,9 +307,10 @@
 		E5038E862CC4299800EB67CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "GrayIcon RedIcon GreenIcon BlueIcon YellowIcon CyanIcon PinkIcon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = GrayIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Systems/Systems.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Systems/Resources/Systems.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DULNFDXAKD;
