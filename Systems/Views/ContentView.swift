@@ -1,8 +1,12 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var backgroundColor: AccentColor = .gray
+
     var body: some View {
-		Text("Hello world!")
+		ZStack {
+			BackgroundView(backgroundColor: $backgroundColor)
+		}
     }
 }
 
